@@ -1,0 +1,430 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		722701901B9E5125003B16DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7227018F1B9E5125003B16DE /* AppDelegate.swift */; };
+		722701921B9E5125003B16DE /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722701911B9E5125003B16DE /* RootViewController.swift */; };
+		722701941B9E5125003B16DE /* DataViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722701931B9E5125003B16DE /* DataViewController.swift */; };
+		722701961B9E5125003B16DE /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722701951B9E5125003B16DE /* ModelController.swift */; };
+		722701991B9E5125003B16DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 722701971B9E5125003B16DE /* Main.storyboard */; };
+		7227019B1B9E5125003B16DE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7227019A1B9E5125003B16DE /* Images.xcassets */; };
+		7227019E1B9E5125003B16DE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7227019C1B9E5125003B16DE /* LaunchScreen.xib */; };
+		722701AA1B9E5125003B16DE /* wudooTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 722701A91B9E5125003B16DE /* wudooTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		722701A41B9E5125003B16DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 722701821B9E5125003B16DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 722701891B9E5125003B16DE;
+			remoteInfo = wudoo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7227018A1B9E5125003B16DE /* wudoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wudoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7227018E1B9E5125003B16DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7227018F1B9E5125003B16DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		722701911B9E5125003B16DE /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		722701931B9E5125003B16DE /* DataViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewController.swift; sourceTree = "<group>"; };
+		722701951B9E5125003B16DE /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
+		722701981B9E5125003B16DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7227019A1B9E5125003B16DE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7227019D1B9E5125003B16DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		722701A31B9E5125003B16DE /* wudooTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wudooTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		722701A81B9E5125003B16DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		722701A91B9E5125003B16DE /* wudooTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wudooTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		722701871B9E5125003B16DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722701A01B9E5125003B16DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		722701811B9E5125003B16DE = {
+			isa = PBXGroup;
+			children = (
+				7227018C1B9E5125003B16DE /* wudoo */,
+				722701A61B9E5125003B16DE /* wudooTests */,
+				7227018B1B9E5125003B16DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7227018B1B9E5125003B16DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7227018A1B9E5125003B16DE /* wudoo.app */,
+				722701A31B9E5125003B16DE /* wudooTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7227018C1B9E5125003B16DE /* wudoo */ = {
+			isa = PBXGroup;
+			children = (
+				7227018F1B9E5125003B16DE /* AppDelegate.swift */,
+				722701911B9E5125003B16DE /* RootViewController.swift */,
+				722701931B9E5125003B16DE /* DataViewController.swift */,
+				722701951B9E5125003B16DE /* ModelController.swift */,
+				722701971B9E5125003B16DE /* Main.storyboard */,
+				7227019A1B9E5125003B16DE /* Images.xcassets */,
+				7227019C1B9E5125003B16DE /* LaunchScreen.xib */,
+				7227018D1B9E5125003B16DE /* Supporting Files */,
+			);
+			path = wudoo;
+			sourceTree = "<group>";
+		};
+		7227018D1B9E5125003B16DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7227018E1B9E5125003B16DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		722701A61B9E5125003B16DE /* wudooTests */ = {
+			isa = PBXGroup;
+			children = (
+				722701A91B9E5125003B16DE /* wudooTests.swift */,
+				722701A71B9E5125003B16DE /* Supporting Files */,
+			);
+			path = wudooTests;
+			sourceTree = "<group>";
+		};
+		722701A71B9E5125003B16DE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				722701A81B9E5125003B16DE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		722701891B9E5125003B16DE /* wudoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 722701AD1B9E5125003B16DE /* Build configuration list for PBXNativeTarget "wudoo" */;
+			buildPhases = (
+				722701861B9E5125003B16DE /* Sources */,
+				722701871B9E5125003B16DE /* Frameworks */,
+				722701881B9E5125003B16DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wudoo;
+			productName = wudoo;
+			productReference = 7227018A1B9E5125003B16DE /* wudoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		722701A21B9E5125003B16DE /* wudooTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 722701B01B9E5125003B16DE /* Build configuration list for PBXNativeTarget "wudooTests" */;
+			buildPhases = (
+				7227019F1B9E5125003B16DE /* Sources */,
+				722701A01B9E5125003B16DE /* Frameworks */,
+				722701A11B9E5125003B16DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				722701A51B9E5125003B16DE /* PBXTargetDependency */,
+			);
+			name = wudooTests;
+			productName = wudooTests;
+			productReference = 722701A31B9E5125003B16DE /* wudooTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		722701821B9E5125003B16DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Curtbergeeks;
+				TargetAttributes = {
+					722701891B9E5125003B16DE = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					722701A21B9E5125003B16DE = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 722701891B9E5125003B16DE;
+					};
+				};
+			};
+			buildConfigurationList = 722701851B9E5125003B16DE /* Build configuration list for PBXProject "wudoo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 722701811B9E5125003B16DE;
+			productRefGroup = 7227018B1B9E5125003B16DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				722701891B9E5125003B16DE /* wudoo */,
+				722701A21B9E5125003B16DE /* wudooTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		722701881B9E5125003B16DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722701991B9E5125003B16DE /* Main.storyboard in Resources */,
+				7227019E1B9E5125003B16DE /* LaunchScreen.xib in Resources */,
+				7227019B1B9E5125003B16DE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		722701A11B9E5125003B16DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		722701861B9E5125003B16DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722701921B9E5125003B16DE /* RootViewController.swift in Sources */,
+				722701961B9E5125003B16DE /* ModelController.swift in Sources */,
+				722701941B9E5125003B16DE /* DataViewController.swift in Sources */,
+				722701901B9E5125003B16DE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7227019F1B9E5125003B16DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				722701AA1B9E5125003B16DE /* wudooTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		722701A51B9E5125003B16DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 722701891B9E5125003B16DE /* wudoo */;
+			targetProxy = 722701A41B9E5125003B16DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		722701971B9E5125003B16DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				722701981B9E5125003B16DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7227019C1B9E5125003B16DE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7227019D1B9E5125003B16DE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		722701AB1B9E5125003B16DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		722701AC1B9E5125003B16DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		722701AE1B9E5125003B16DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wudoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		722701AF1B9E5125003B16DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = wudoo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		722701B11B9E5125003B16DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = wudooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wudoo.app/wudoo";
+			};
+			name = Debug;
+		};
+		722701B21B9E5125003B16DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = wudooTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wudoo.app/wudoo";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		722701851B9E5125003B16DE /* Build configuration list for PBXProject "wudoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722701AB1B9E5125003B16DE /* Debug */,
+				722701AC1B9E5125003B16DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		722701AD1B9E5125003B16DE /* Build configuration list for PBXNativeTarget "wudoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722701AE1B9E5125003B16DE /* Debug */,
+				722701AF1B9E5125003B16DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		722701B01B9E5125003B16DE /* Build configuration list for PBXNativeTarget "wudooTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				722701B11B9E5125003B16DE /* Debug */,
+				722701B21B9E5125003B16DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 722701821B9E5125003B16DE /* Project object */;
+}
